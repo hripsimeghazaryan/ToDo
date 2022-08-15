@@ -31,7 +31,6 @@ function Tasks ({data, removeTask, completeTask, filter}) {
                     </div>
                 )
             })}
-            {/* handle id */}
             <Popup open={open} handlePopUp={handlePopUp} id={id} removeTask={removeTask} />
         </div>   
     )
