@@ -1,0 +1,10 @@
+.task-item button:hover {
+    background-color: transparent;
+}
+
+.task-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8px 0;
+}

@@ -1,0 +1,46 @@
+.add-task-container {
+    margin-top: 12%;
+    margin-left: 4%;
+}
+
+.add-task-label {
+    margin-left: 12px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.add-task-input {
+    width: 80%;
+}
+
+.add-task-input input {
+    padding: 12px !important;
+}
+
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+    border-color: #FFCD04 !important;
+}
+
+.css-md26zr-MuiInputBase-root-MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+    border-color: #FFCD04 !important;   
+}
+
+.add-task-input .css-md26zr-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #FFCD04;
+    border-width: 1px;
+}
+
+.add-task-button {
+    margin: 0 16px;
+}
+
+.add-task-button button, .add-task-button button:hover {
+    background-color: #008594;
+    padding: 11px 24px;
+    margin-left: 12px;
+}

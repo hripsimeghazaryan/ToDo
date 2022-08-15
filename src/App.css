@@ -1,0 +1,46 @@
+.App {
+  margin: 8px;
+}
+
+.filter-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+}
+
+.blank-list {
+  margin-top: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blank-list .small-heading {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px !important;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  color: #ACACAC;
+}
+
+.blank-list .big-heading {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px !important;
+  line-height: 54px;
+  letter-spacing: 0.002em;
+  text-transform: capitalize;
+  color: #666666;
+}
+
+@media screen and (max-width: 400px) {
+  .blank-list .big-heading {
+    font-size: 18px !important;
+  }
+
+  .blank-list .small-heading {
+    font-size: 14px !important;
+  }
+}

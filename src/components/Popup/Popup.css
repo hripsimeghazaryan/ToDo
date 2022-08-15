@@ -1,0 +1,30 @@
+.popup-buttons button, .popup-buttons button:hover {
+    background-color: transparent;
+    color: rgb(23 67 72);
+    box-shadow: none;
+}
+
+.popup-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center !important;
+}
+
+.remove-popup .css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    height: 200px;
+}
+
+@media screen and (max-width: 400px) {
+    .remove-popup .css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+        width: 324px;
+        height: 140px;
+    }
+
+    h2 {
+        font-size: 18px !important;
+    }
+  }
